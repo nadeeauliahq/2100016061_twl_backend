@@ -7,11 +7,11 @@ const app = express();
 
 app.use(express.json());
 
-const dbUrl = 'mongodb://localhost:27017/your-database-name'; // Replace 'your-database-name' with the name of your MongoDB Compass database
+const dbUrl = 'mongodb://localhost:27017/twl'; // Replace 'your-database-name' with the name of your MongoDB database
 
 mongoose.connect(dbUrl, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 })
   .then(() => {
     console.log('MongoDB connection successful');
