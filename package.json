@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "praktikum7",
+=======
+  "name": "percb6",
+>>>>>>> 7bb6fa0cc44027714c49c2e3527fc6fdd063909a
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "ts-node src/index.ts"
   },
   "keywords": [],
@@ -15,5 +20,21 @@
     "mongoose": "^7.3.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadeeauliahq/2100016061_twl_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadeeauliahq/2100016061_twl_backend/issues"
+  },
+  "homepage": "https://github.com/nadeeauliahq/2100016061_twl_backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+>>>>>>> 7bb6fa0cc44027714c49c2e3527fc6fdd063909a
   }
 }
